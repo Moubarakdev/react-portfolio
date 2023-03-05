@@ -11,21 +11,27 @@ const services = [
   {
     name: "Web Development",
     description:
-      "Donec rutrum congue leo eget malesuada. nibh. lolflrb hehehe hejhekekee ehehe  ",
+      "Donec rutrum congue leo eget malesuada. nibh. lolflrb hehehe hejhekekee ehehe Le coq chante le jour apparait, tous d'éveille dans le village ",
     link: "Learn more",
   },
   {
     name: "Web Development",
     description:
-      "Donec rutrum congue leo eget malesuada. nibh. lolflrb hehehe hejhekekee ehehe  ",
+      "Donec rutrum congue leo eget malesuada. nibh. lolflrb hehehe hejhekekee ehehe  Le coq chante le jour apparait, tous d'éveille dans le village",
     link: "Learn more",
   },
   {
     name: "Web Development",
     description:
-      "Donec rutrum congue leo eget malesuada. nibh. lolflrb hehehe hejhekekee ehehe  ",
+      "Donec rutrum congue leo eget malesuada. nibh. lolflrb hehehe hejhekekee ehehe  Le coq chante le jour apparait, tous d'éveille dans le village",
     link: "Learn more",
-  }
+  },
+  {
+    name: "Web Development",
+    description:
+      "Donec rutrum congue leo eget malesuada. nibh. lolflrb hehehe hejhekekee ehehe  Le coq chante le jour apparait, tous d'éveille dans le village",
+    link: "Learn more",
+  },
 ];
 
 const Services = () => {
@@ -42,7 +48,7 @@ const Services = () => {
             className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0"
           >
             <h2 className="h2 text-accent mb-6"> What I Do</h2>
-            <h3 className="h3 max-w-{455px} mb-16">
+            <h3 className="h3 max-w-[455px] mb-16">
               I'm a Freelance Developer with over 1 year of experience.
             </h3>
             <button className="btn btn-sm">See my work</button>
@@ -70,17 +76,17 @@ const Services = () => {
                       <p className="font-secondary leading-tight ">
                         {service.description}
                       </p>
-                      <div className=" flex flex-1 flex-col items-end">
-                        <a
-                          href="#"
-                          className=" flex btn w-9 h-9 mb-[42px] justify-center items-center"
-                        >
-                          <BsArrowUpRight />
-                        </a>
-                        <a href="#" className="text-gradient text-sm ">
-                          {service.link}
-                        </a>
-                      </div>
+                    </div>
+                    <div className=" flex flex-1 flex-col items-end">
+                      <a
+                        href="#"
+                        className=" flex btn w-9 h-9 mb-[42px] justify-center items-center"
+                      >
+                        <BsArrowUpRight />
+                      </a>
+                      <a href="#" className="text-gradient text-sm ">
+                        {service.link}
+                      </a>
                     </div>
                   </div>
                 );

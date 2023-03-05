@@ -29,7 +29,6 @@ const Work = () => {
               <p className="max-w-sm mb-16">
                 Patratis principis quisquam principis proscripti paene absolutum
                 facile et is actique actique sunt cruore catenis parabat adventu
-                
               </p>
               <button className="btn btn-sm">View all projects</button>
             </div>
